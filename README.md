@@ -1,6 +1,6 @@
 # MiniComp: front-end LL(1) para a MiniLang
 
-[![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z4JWASsHAYpJIiW2OWqv_-QG1GJyYrpX)
+[![Abrir no Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Z4JWASsHAYpJIiW2OWqv_-QG1GJyYrpX?usp=sharing)
 
 Entrega do front-end da MiniLang para a disciplina de Compiladores. O projeto tem o analisador léxico, um parser LL(1) preditivo dirigido por tabela (com pilha explícita, sem descida recursiva), a geração da AST, a tabela de símbolos e um interpretador que executa os programas a partir da AST. Está tudo em C++17, sem bibliotecas externas.
 
@@ -10,7 +10,7 @@ Entrega do front-end da MiniLang para a disciplina de Compiladores. O projeto te
 
 ### No Google Colab (mais rápido)
 
-Para quem não quiser instalar nada, deixamos um notebook pronto: [abrir no Colab](https://colab.research.google.com/drive/1Z4JWASsHAYpJIiW2OWqv_-QG1GJyYrpX). Ele precisa de uma conta Google. Basta usar *Ambiente de execução > Executar tudo*, ou rodar as células em ordem. O notebook clona o repositório, compila com `make`, roda os testes e executa os três exemplos da especificação.
+Para quem não quiser instalar nada, deixamos um notebook pronto: [abrir no Colab](https://colab.research.google.com/drive/1Z4JWASsHAYpJIiW2OWqv_-QG1GJyYrpX?usp=sharing). Ele precisa de uma conta Google. Basta usar *Ambiente de execução > Executar tudo*, ou rodar as células em ordem. O notebook clona o repositório, compila com `make`, roda os testes e executa os três exemplos da especificação.
 
 Se preferir montar um notebook do zero, são duas células:
 
